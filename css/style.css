@@ -47,3 +47,7 @@ table {
 .alert {
   color: #ff1654;
 }
+.source-code {
+  font-size: 0.9em;
+  padding: 10px;
+}
