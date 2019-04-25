@@ -1,26 +1,33 @@
 :root {
   box-sizing: border-box;
 }
-*,
+
 ::before,
 ::after {
   box-sizing: inherit;
 }
-
+h3 {
+  color: #247ba0;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3ffbd;
+  color: #efe9f4;
 }
-
+a:hover {
+  text-decoration: underline;
+  color: #ff1654;
+}
 th:first-child,
 td:first-child {
   text-align: left;
 }
 
 th:first-child {
-  background-color: #545994;
+  background-color: #b2dbbf;
 }
 td:first-child {
-  background-color: #7f81b1;
+  background-color: #b2dbbf;
 }
 th,
 td {
@@ -28,8 +35,15 @@ td {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #247ba0;
 }
 table {
-  background-color: #333676;
+  background-color: #70c1b3;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.alert {
+  color: #ff1654;
 }
