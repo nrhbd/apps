@@ -39,7 +39,7 @@ a {
 }
 table {
   background-color: #70c1b3;
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-top: 100px;
 }
@@ -50,4 +50,5 @@ table {
 .source-code {
   font-size: 0.9em;
   padding: 10px;
+  text-align: center;
 }
